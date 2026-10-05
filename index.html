@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tax Calculator</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Tax Calculator</h1>
+    <label for="income">Income</label>
+    <input id="income" type="number" min="0" step="0.01" placeholder="e.g. 50000">
+    <label for="rate">Tax rate (%)</label>
+    <input id="rate" type="number" min="0" step="0.01" placeholder="e.g. 20">
+    <button id="calculate">Calculate</button>
+    <p id="result" aria-live="polite"></p>
+  </main>
+  <script src="taxCalculator.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "tax-calculator",
+  "version": "1.0.0",
+  "description": "Simple tax calculator tested with Jasmine",
+  "main": "taxCalculator.js",
+  "scripts": { "test": "jasmine" },
+  "devDependencies": { "jasmine": "^5.1.0" }
+}
